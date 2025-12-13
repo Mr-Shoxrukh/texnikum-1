@@ -78,7 +78,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 
@@ -3175,7 +3174,6 @@ h6 {
 .team_item .team_name h4 {
   margin-bottom: 5px;
   color: #222222;
-  font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 18px;
   transition: all 300ms linear 0s;
@@ -3191,6 +3189,9 @@ h6 {
 }
 .team_item:hover .team_img .hover {
   opacity: 1;
+}
+.team_item:hover .team_img .hover i {
+  font-size: 1.5rem;
 }
 .team_item:hover .team_name h4 {
   color: #4dbf1c;
@@ -3396,7 +3397,7 @@ h6 {
   align-self: center;
   padding-right: 25px;
 }
-.finance_item .media .d-flex i {
+.finance_item .media .d-flex h4 {
   font-size: 36px;
   color: #4dbf1c;
 }
