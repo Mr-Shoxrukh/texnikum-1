@@ -3847,3 +3847,14 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+/* Extra css */
+.blog-img {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.align-items-center {
+  display: flex;
+  justify-content: space-around;
+}
