@@ -3416,7 +3416,8 @@ h6 {
 /* Looking Area css
 ============================================================================================ */
 .impress_area {
-  background: url(../img/notify-bg.jpg) no-repeat scroll center center;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.319), rgba(0, 0, 0, 0.478)),
+    url(../img/home-banner.jpg) no-repeat scroll center center;
   background-size: cover;
 }
 .impress_area .impress_inner {
